@@ -1,0 +1,31 @@
+# 🌟 Beginner Practice with Dictionary and Set in Python
+
+This is my small Python practice using Dictionary and Set.  
+I wrote this code after watching Apna College's video (Shraddha Didi) on this topic.
+
+## 💡 What I Learned:
+- Creating a dictionary to store subject marks
+- Accessing values using keys
+- Using a set to store names
+- Understanding how sets remove duplicates
+
+## 🎯 Output:
+- It prints a subject-wise mark from the dictionary
+- It shows a set of unique friend names
+
+  # Dictionary Example
+marks = {
+    "Math": 90,
+    "Science": 85,
+    "English": 92
+}
+
+print("Marks Dictionary:")
+print(marks)
+print("Marks in Math:", marks["Math"])
+
+# Set Example
+friends = {"Amit", "Neha", "Riya", "Neha"}
+
+print("\nFriends Set:")
+print(friends)  # Duplicate 'Neha' will be removed
